@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">ROULLAND Thomas</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active"><i class="fa-solid fa-house"></i></a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link"><i class="fa-solid fa-address-card"></i></a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link"><i class="fa-solid fa-code"></i></a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link"><i class="fa-solid fa-briefcase"></i></a></li>
+                        <li class="nav__item"><a href="#projet" class="nav__link"><i class="fa-solid fa-diagram-project"></i></a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title"><br>ROULLAND <span class="home__title-color">Thomas</span><br> Etudiant en BTS SIO</h1>
+
+                    <a href="#contact" class="button">Contactez moi</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/moi-sansbg.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">A propos de moi</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/moi.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Présentation.</h2>
+                        <p >
+                            Ayant 21 ans, je suis en dernière année d'un BTS SIO en option SLAM. 
+                            J’ai pour projet de travailler dans le développement web en tant que développeur full stack. Pour ensuite gérer une équipe de développeur ou avoir mon entreprise.
+                        </p> 
+                        <div class="mt-1">
+                            <h2 class="about__subtitle">Mon parcour.</h2>
+                                <p class="about__text">BTS SIO OPTION SLAM - En cours
+                                    <hr>
+                                    <p class="about__text">1 année en DUT INFORMATIQUE à IFS - 2020</p>
+                                    <hr>
+                                    <p class="about__text">BAC STMG OPTION SIG européenne - 2019</p>
+                                </p>
+                        </div>
+                                
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Compétences</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Langages</h2>
+                        <p class="skills__text">Durant mes études, j'ai appris des langages de développement en front comme en back :</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5 & CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-php skills__icon"></i>
+                                <span class="skills__name">PHP</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-java skills__icon"></i>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-1">              
+                        <img src="assets/img/langage.webp" alt="" class="skills__img ">
+                    </div>
+                </div>
+                <div class="skills__container bd-grid margt">          
+                    <div>
+                        <h2 class="skills__subtitle">Framework</h2>
+                        <p class="skills__text">J'ai aussi utilisé certains framework afin d'accompagner certains langages :</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-solid fa-s skills__icon"></i>
+                                <span class="skills__name">Semantic UI</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-bootstrap skills__icon"></i>
+                                <span class="skills__name">Bootstrap</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-solid fa-t skills__icon"></i>
+                                <span class="skills__name">Thaildwind</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                        
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-solid fa-leaf skills__icon"></i>
+                                <span class="skills__name">Spring Boot / MVC </span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fa-brands fa-vuejs skills__icon"></i>
+                                <span class="skills__name">VueJs </span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/framework.webp" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Expériences professionnelles</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="zaacom.html" class="work__img zaacom">
+                        <img  src="assets/img/zaacom.png" alt="">
+                    </a>
+                    <a href="gypandcy.html" class="work__img gypandcy">
+                        <img src="assets/img/gypandcy.png" alt="">
+                    </a>
+                </div>
+            </section>
+
+
+            <!--===== Projet =====-->
+            <section class="work section" id="projet">
+                <h2 class="section-title">Mes projets</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="SpAnimals.html" class="work__img projetBuble">
+                        SpAnimals
+                    </a>
+                    <a href="projetTimer.html" class="work__img projetBuble">
+                        Cronos
+                    </a>
+                    <a href="proxmox.html" class="work__img projetBuble">
+                        Projet Proxmox
+                    </a>
+                    <a href="spaceDarus.html" class="work__img projetBuble">
+                        SpaceDarus
+                    </a>
+                    <a href="sitePersonnel.html" class="work__img projetBuble">
+                        Site personnel
+                    </a>
+                    <a href="siteArtiste.html" class="work__img projetBuble">
+                        Refonte site WordPress
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Prénom" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Envoyer" class="contact__button button" >
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">ROULLAND Thomas</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169;ROULLAND Thomas. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
